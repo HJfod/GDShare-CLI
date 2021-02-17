@@ -11,6 +11,8 @@ This is a command-line version of GDShare, meant for users who have experienced 
 5. Navigate to the folder using the `cd` command (Picture below)
 6. Type `gdshare.exe` (If you are on a 32-bit machine, type `gdshare32.exe`) (If you are using Powershell, type `./gdshare.exe`)
 
+![image](https://user-images.githubusercontent.com/60038575/108225292-b4788480-7133-11eb-9e02-aa3a5bf8a4d5.png)
+
 ## Basic Usage
 
 ### Exporting levels
