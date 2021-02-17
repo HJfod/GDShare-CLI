@@ -47,7 +47,7 @@ namespace gdscli {
     };
 
     static constexpr const int max_search = 10;
-    static constexpr const const char* version = "v1.0 Beta";
+    static constexpr const char* version = "v1.0 Beta";
 
     HANDLE console = GetStdHandle(STD_OUTPUT_HANDLE);
     COORD CursorPosition;

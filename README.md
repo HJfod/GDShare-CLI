@@ -7,7 +7,9 @@ This is a command-line version of GDShare, meant for users who have experienced 
 1. Go to the [latest release](https://github.com/HJfod/GDShare-CLI/releases/latest)
 2. Download the app (`GDShareCLI.zip`)
 3. Extract into a folder of choice
-4. Run `gdshare.exe` (If you are on a 32-bit machine, use `gdshare32.exe`)
+4. Open a command line (Press Windows Key and search "gmd")
+5. Navigate to the folder using the `cd` command (Picture below)
+6. Type `gdshare.exe` (If you are on a 32-bit machine, type `gdshare32.exe`) (If you are using Powershell, type `./gdshare.exe`)
 
 ## Basic Usage
 
