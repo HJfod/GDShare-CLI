@@ -47,6 +47,7 @@ namespace gdscli {
     };
 
     static constexpr const int max_search = 10;
+    static constexpr const const char* version = "v1.0 Beta";
 
     HANDLE console = GetStdHandle(STD_OUTPUT_HANDLE);
     COORD CursorPosition;
@@ -349,6 +350,17 @@ namespace gdscli {
                         << "Length\t\t" << lvl->length()
                         << "\n\n";
                 }
+            } break;
+
+            case h$("help"): {
+                std::cout << "GDShare-CLI " << version << "\n\n"
+                << "Commands:\n"
+                << "export\t\tExport level(s)\n"
+                << "import\t\tImport level(s)\n"
+                << "list\t\tList levels\n"
+                << "find\t\tFind a level\n"
+                << "info\t\tView level info\n\n"
+                << "For support, contact HJfod#1795 on Discord\n\n";
             } break;
 
             default:
