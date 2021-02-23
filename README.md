@@ -18,7 +18,7 @@ This is a command-line version of GDShare, meant for users who have experienced 
 ### Exporting levels
 
 ```
-./gdshare.exe <type> <level name> <level name> <level name> ...
+./gdshare.exe export <type> <level name> <level name> <level name> ...
 ```
 
  * `<level-name>` is the name of the level. **If the level name contains spaces, wrap the name in quotes** `"Example name"`. The name is not case-sensitive.
@@ -27,7 +27,7 @@ This is a command-line version of GDShare, meant for users who have experienced 
 ### Import levels
 
 ```
-./gdshare.exe <path/to/file> <path/to/file2> ...
+./gdshare.exe import <path/to/file> <path/to/file2> ...
 ```
 
  * `<path-to-file>` is the path to the level file you want to import. **If the path contains spaces, wrap the pah in quotes** `"C:/Example path/file.gmd"`. Supported formats are `.gmd`, `.gmd2` and `.lvl`.
